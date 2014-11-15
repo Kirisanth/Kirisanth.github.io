@@ -1,5 +1,5 @@
  /* Parallax styles
-  --------------------------------------------- */*/
+  --------------------------------------------- */
 
 .parallax {
 	perspective: 1px;
@@ -26,18 +26,6 @@
 	-webkit-transform: translateZ(-1px);
 	transform:translateZ(-1px) scale(2);
 }
-
-.title {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-
-.parallax__layer {
-    padding: 100vh 0;
- }
 
 /* Demo styles
   --------------------------------------------- */
