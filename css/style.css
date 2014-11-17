@@ -9,6 +9,11 @@
 	overflow-y: auto;
 }
 
+/*group style*/
+.parallax__group {
+    transform: translate3d(700px, 0, -800px) rotateY(30deg);
+}
+
 .parallax__layer{
 	position: absolute;
 	top: 0;
@@ -27,7 +32,9 @@
 	transform:translateZ(-1px) scale(2);
 }
 
-/* Demo styles
+
+
+/* General styles
   --------------------------------------------- */
 
 * {
@@ -56,3 +63,13 @@ body {
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+
+/*Color*/
+
+/*.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}*/
