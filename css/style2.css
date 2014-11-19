@@ -10,6 +10,15 @@
     perspective: 300px;
   }
 
+  .parallax__layer--wrapper {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
   .parallax__group {
     position: relative;
     height: 500px; /* fallback for older browsers */
@@ -125,6 +134,8 @@
   }
   #group2 .parallax__layer--back {
     background: rgb(123,210,102);
+    background: url(../cityscape_by_inlakechh-d5clk5j.jpg) no-repeat;
+background-size: 100% 100%;
   }
 
   #group3 {
