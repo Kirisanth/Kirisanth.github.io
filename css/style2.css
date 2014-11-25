@@ -126,7 +126,7 @@
     z-index: 5; /* slide over group 2 */
   }
   #group1 .parallax__layer--base {
-    background: rgb(102,204,102);
+    background: rgb(255,0,20);
   }
 
   #group2 {
@@ -135,14 +135,14 @@
   #group2 .parallax__layer--back {
     background: rgb(123,210,102);
     /*background: url(../cityscape_by_inlakechh-d5clk5j.jpg) no-repeat;*/
-background-size: 100% 100%;
+    background-size: 100% 100%;
   }
 
   #group3 {
     z-index: 4; /* slide over group 2 and 4 */
   }
   #group3 .parallax__layer--base {
-    background: rgb(153,216,101);
+    background: rgb(20,20,255);
   }
 
   #group4 {
