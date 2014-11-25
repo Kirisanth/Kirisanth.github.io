@@ -1,6 +1,7 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/style2.css">
+		<link rel="stylesheet" type="text/css" href="css/parallax.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>Kirisanth</title>
 		<style>
 			body { margin: 0; }
@@ -11,40 +12,36 @@
 	<body> 
 		
 		<!-- This div element needs to be outer layer any sibling element breaks site (check scroll bar) -->
+		<!-- <div class="parallax__layer--wrapper"> -->
 		<div class="parallax">
 			<div id="group1" class="parallax__group">
 				<div class="parallax__layer parallax__layer--base ">
-					<!-- <div class="title">BackGround (group1) Kirisanth</div> -->
 					<div class="title">Kirisanth</div>
 				</div>
-				<!-- <div class="parallax__layer parallax__layer--base ">
-					<div class="title">ForeGround (group1) Developer</div>
-				</div> -->
 			</div>
 			<div id="group2" class="parallax__group">
+				
 				<div id="canvas" class="parallax__layer parallax__layer--back ">
-					<!-- <div class="title">BackGround (group2)</div> -->
 					<div class="title">Developer</div>
 				</div>
 				<div class="parallax__layer parallax__layer--base ">
-					<!-- <div class="title">ForeGround (group2)</div> -->
 					<div class="title">Web</div>
 				</div>
 			</div>
 			<div id="group3" class="parallax__group">
 				<div class="parallax__layer parallax__layer--base ">
-					<!-- <div class="title">Developer (group3)</div> -->
 					<div class="title">Portfolio</div>
 				</div>
 			</div>
 			<div class="footer">
 			Contact
 			LinkedIn
+			Github
 			</div>
 		</div>
+		<!-- </div> -->
 		<script src="js/vendor/three.min.js"></script>
 		<script src="js/3dobjects/robot.js"></script>
 		<script src="js/main.js"></script>
-		
 	</body>
 </html>
