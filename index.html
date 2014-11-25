@@ -1,8 +1,15 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/style2.css">
+		<title>Kirisanth</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+			#group2 div .title{color:red;}
+		</style>
 	</head>
 	<body> 
+		
 		<!-- This div element needs to be outer layer any sibling element breaks site (check scroll bar) -->
 		<div class="parallax">
 			<div id="group1" class="parallax__group">
@@ -15,7 +22,7 @@
 				</div> -->
 			</div>
 			<div id="group2" class="parallax__group">
-				<div class="parallax__layer parallax__layer--back ">
+				<div id="canvas" class="parallax__layer parallax__layer--back ">
 					<!-- <div class="title">BackGround (group2)</div> -->
 					<div class="title">Developer</div>
 				</div>
@@ -33,8 +40,10 @@
 			<div class="footer">
 			Contact
 			LinkedIn
+			</div>
 		</div>
-		</div>
+		<script src="js/vendor/three.min.js"></script>
+		<script src="js/main.js"></script>
 		
 	</body>
 </html>
