@@ -26,10 +26,11 @@
 
 var Robot = function(firstName) {
 	this.firstName = firstName;
+	this.walkMultipler = 1;
+	this.position = 0;
 	this.init();
 }
 
-Robot.prototype.position = 0;
 Robot.prototype.init = function() {
 	this.body = this.buildBody();
 
@@ -47,31 +48,26 @@ Robot.prototype.init = function() {
 	this.body.add(this.rightLeg);
 	this.body.add(this.head);
 
+	//TODO: Find a better way to do this
 	scene.add(this.body);
 }
 
-Robot.prototype.walkMultipler = 1;
+//Walking animation
 Robot.prototype.walk = function() {
 	console.log("I am walking!");
 	var m = new THREE.Matrix4();
 
-	var movementBound = 0.1;
+	var movementBound = 1;
+	var movementSpeed = 0.05;
 
-	if(this.position > movementBound) {
-		this.walkMultipler = -1
-	}
+	if(Math.abs(this.rightLeg.position.z) > movementBound)
+		this.walkMultipler *= -1;
 
-	if(this.position < -1*movementBound) {
-		this.walkMultipler = 1
-	}	
-
-	this.position += this.walkMultipler*0.01;
-
-	m.makeTranslation(0,0,this.position);
+	m.makeTranslation(0,0,this.walkMultipler*movementSpeed);
 
 	this.rightLeg.applyMatrix(m);
 
-	m.makeTranslation(0,0,-1*this.position);
+	m.makeTranslation(0,0,-1*this.walkMultipler*movementSpeed);
 
 	this.leftLeg.applyMatrix(m);
 }
@@ -134,4 +130,8 @@ Robot.prototype.cube = function(x,y,z,color) {
 	var cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
 
 	return cube;
-}
+};
+
+Robot.prototype.add = function() {
+	scene.add(this.body)
+};
