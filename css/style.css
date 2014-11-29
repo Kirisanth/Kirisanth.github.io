@@ -32,3 +32,8 @@ body {
 .footer {
 	background-color: red;
 }
+
+nav {
+	/*position: fixed;*/
+	z-index: 1;
+}

@@ -1,0 +1,12 @@
+.midnightHeader.default {
+  background: none;
+  color: black;
+}
+.midnightHeader.white {
+  /*background: white;*/
+  color: white;
+}
+.midnightHeader.blue {
+  /*background: blue;*/
+  color: blue;
+}
