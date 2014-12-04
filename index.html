@@ -45,5 +45,14 @@
 		<script src="js/3dobjects/sphere.js"></script>
 		<script src="js/3dobjects/robot.js"></script>
 		<script src="js/main.js"></script>
+		<script type="text/javascript">
+			window.addEventListener( 'resize', onWindowResize, false );
+
+			function onWindowResize(){
+			    camera.aspect = window.innerWidth / window.innerHeight;
+			    camera.updateProjectionMatrix();
+			    renderer.setSize( window.innerWidth, window.innerHeight );
+			}
+		</script>
 	</body>
 </html>
