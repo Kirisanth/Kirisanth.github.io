@@ -14,40 +14,43 @@
 		<div>
 		</div>
 		<nav class="fixed">
-			<p>Logo</a>
+			<a>Logo</a>
+			<a href="#group1">Bio</a>
+			<a href="#group2">Project</a>
+			<a href="#group3">Portfolio</a>
 		</nav>
 		<!-- This div element needs to be outer layer any sibling element breaks site (check scroll bar) -->
-		<div class="parallax__layer--wrapper">
-		<div class="parallax">
-			<div data-midnight="blue" id="group1" class="parallax__group">
-				<div class="parallax__layer parallax__layer--base ">
-					<div class="title">Kirisanth</div>
+		<!-- <div class="parallax__layer--wrapper"> -->
+			<div class="parallax">
+				<div data-midnight="blue" id="group1" class="parallax__group">
+					<div class="parallax__layer parallax__layer--base ">
+						<div class="title">Kirisanth</div>
+					</div>
 				</div>
+				<div data-midnight="white" id="group2" class="parallax__group">
+					
+					<div id="canvas" class="parallax__layer parallax__layer--back ">
+						<div class="title">Developer</div>
+					</div>
+					<div class="parallax__layer parallax__layer--base ">
+						<div class="title">Web</div>
+					</div>
+				</div>
+				<div data-midnight="red" id="group3" class="parallax__group">
+					<div class="parallax__layer parallax__layer--base ">
+						<div class="title">Portfolio</div>
+						<div class="box"></div>
+						<div class="box"></div>
+						<div class="box"></div>
+					</div>
+				</div>
+				<footer class="footer">
+					<div>Contact</div>
+					<div>LinkedIn</div>
+					<div>Github</div>
+				</footer>
 			</div>
-			<div data-midnight="white" id="group2" class="parallax__group">
-				
-				<div id="canvas" class="parallax__layer parallax__layer--back ">
-					<div class="title">Developer</div>
-				</div>
-				<div class="parallax__layer parallax__layer--base ">
-					<div class="title">Web</div>
-				</div>
-			</div>
-			<div data-midnight="red" id="group3" class="parallax__group">
-				<div class="parallax__layer parallax__layer--base ">
-					<div class="title">Portfolio</div>
-					<div class="box"></div>
-					<div class="box"></div>
-					<div class="box"></div>
-				</div>
-			</div>
-			<footer class="footer">
-				<div>Contact</div>
-				<div>LinkedIn</div>
-				<div>Github</div>
-			</footer>
-		</div>
-		</div>
+		<!-- </div> -->
 		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="js/vendor/midnight.jquery.min.js"></script>
 		<script src="js/vendor/three.min.js"></script>
