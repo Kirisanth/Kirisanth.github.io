@@ -1,0 +1,32 @@
+/* General styles
+  --------------------------------------------- */
+body, html {
+  overflow: hidden; }
+
+body {
+  font: 100% / 1.5 Arial; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.parallax {
+  font-size: 200%; }
+
+/* centre the content in the parallax layers */
+.title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.footer {
+  background-color: #FF4848; }
+
+nav {
+  position: fixed;
+  z-index: 1; }
+
+/*# sourceMappingURL=style.css.map */
