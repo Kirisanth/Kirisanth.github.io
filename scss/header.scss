@@ -1,0 +1,22 @@
+// Styles for midnight.js
+$default: black;
+$white: white;
+$blue: blue;
+
+@mixin midnight($background: none, $color: none) {
+	background: $background;
+	color: $color;
+}
+
+.midnightHeader {
+	&.default {
+		@include midnight(none, $default);
+	}
+	&.white {
+		@include midnight(none, $white);
+	}
+	&.blue {
+		@include midnight(none, $blue);
+	}
+}
+

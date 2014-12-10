@@ -1,7 +1,8 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/parallax.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/scss/parallax.css">
+		<link rel="stylesheet" type="text/css" href="css/scss/style.css">
+		<link rel="stylesheet" type="text/css" href="css/scss/header.css">
 		<title>Kirisanth</title>
 		<style>
 			body { margin: 0; }
@@ -10,41 +11,61 @@
 		</style>
 	</head>
 	<body> 
-		
+		<div>
+		</div>
+		<nav class="fixed">
+			<a>Logo</a>
+			<a href="#group1">Bio</a>
+			<a href="#group2">Project</a>
+			<a href="#group3">Portfolio</a>
+		</nav>
 		<!-- This div element needs to be outer layer any sibling element breaks site (check scroll bar) -->
 		<!-- <div class="parallax__layer--wrapper"> -->
 		<div class="parallax">
-			<div id="group1" class="parallax__group">
+			<div data-midnight="blue" id="group1" class="parallax__group">
 				<div class="parallax__layer parallax__layer--base ">
 					<div class="title">Kirisanth</div>
 				</div>
 			</div>
-			<div id="group2" class="parallax__group">
+			<div data-midnight="white" id="group2" class="parallax__group">
 				
 				<div id="canvas" class="parallax__layer parallax__layer--back ">
-					<div class="title">Developer</div>
+					<!-- <div class="title">Developer</div> -->
 				</div>
 				<div class="parallax__layer parallax__layer--base ">
-					<div class="title">Web</div>
+					<!-- <div class="title">Web</div> -->
 				</div>
 			</div>
-			<div id="group3" class="parallax__group">
+			<div data-midnight="red" id="group3" class="parallax__group">
 				<div class="parallax__layer parallax__layer--base ">
 					<div class="title">Portfolio</div>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
 				</div>
 			</div>
-			<div class="footer">
-			Contact
-			LinkedIn
-			Github
-			</div>
+			<footer class="footer">
+				<div>Contact</div>
+				<div>LinkedIn</div>
+				<div>Github</div>
+			</footer>
 		</div>
 		<!-- </div> -->
+		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="js/vendor/midnight.jquery.min.js"></script>
 		<script src="js/vendor/three.min.js"></script>
 		<script src="js/3dobjects/cube.js"></script>
 		<script src="js/3dobjects/sphere.js"></script>
 		<script src="js/3dobjects/robot.js"></script>
+		<script>
+		// Start midnight
+		$(document).ready(function(){
+			  // Change this to the correct selector.
+			  $('nav.fixed').midnight();
+			});
+		</script>
 		<script src="js/main.js"></script>
+
 		<script type="text/javascript">
 			window.addEventListener( 'resize', onWindowResize, false );
 
@@ -54,5 +75,15 @@
 			    renderer.setSize( window.innerWidth, window.innerHeight );
 			}
 		</script>
+
+		<!--<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-57137195-1', 'auto');
+		  ga('send', 'pageview');
+		</script>-->
 	</body>
 </html>
