@@ -2,6 +2,7 @@
 $default: black;
 $white: white;
 $blue: blue;
+$green: green;
 
 @mixin midnight($background: none, $color: none) {
 	background: $background;
@@ -17,6 +18,9 @@ $blue: blue;
 	}
 	&.blue {
 		@include midnight(none, $blue);
+	}
+	&.green {
+		@include midnight(none, $green);
 	}
 }
 

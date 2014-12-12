@@ -78,6 +78,7 @@ function render() {
 	cube.cube.applyMatrix(m3);
 	cube.cube.applyMatrix(m2);
 	robot.body.applyMatrix(m3);
+	
 
 	robot.walk();
 }

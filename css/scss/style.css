@@ -23,10 +23,14 @@ body {
   transform: translate(-50%, -50%); }
 
 .footer {
-  background-color: #FF4848; }
+  background-color: #59544B; }
 
 nav {
   position: fixed;
   z-index: 1; }
+
+.footer a {
+  margin: 0px 20px;
+  font-size: 80px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -59,7 +59,7 @@
   /* slide over group 2 */ }
 
 #group1 .parallax__layer--base {
-  background: #ff0014; }
+  background-color: #79A9D1; }
 
 #group2 {
   z-index: 3;
@@ -67,7 +67,6 @@
 
 #group2 .parallax__layer--back {
   background: #7bd266;
-  /*background: url(../cityscape_by_inlakechh-d5clk5j.jpg) no-repeat;*/
   background-size: 100% 100%; }
 
 #group3 {
@@ -75,11 +74,12 @@
   /* slide over group 2 and 4 */ }
 
 #group3 .parallax__layer--base {
-  background: #1414ff; }
+  background-color: #7D8CA3; }
 
 #group4 {
   z-index: 2;
-  /* slide under group 3 and 5 */ }
+  /* slide under group 3 and 5 */
+  background-color: #59544B; }
 
 #group4 .parallax__layer--deep {
   background: #b8df65; }

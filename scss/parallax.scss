@@ -62,12 +62,12 @@
 
 /* style the groups
 --------------------------------------------- */
-
+// http://coolors.co/020300-36311f-59544b-7d8ca3-79a9d1
 #group1 {
   z-index: 5; /* slide over group 2 */
 }
 #group1 .parallax__layer--base {
-  background: rgb(255,0,20);
+  background-color: #79A9D1;
 }
 
 #group2 {
@@ -75,7 +75,6 @@
 }
 #group2 .parallax__layer--back {
   background: rgb(123,210,102);
-  /*background: url(../cityscape_by_inlakechh-d5clk5j.jpg) no-repeat;*/
   background-size: 100% 100%;
 }
 
@@ -83,11 +82,12 @@
   z-index: 4; /* slide over group 2 and 4 */
 }
 #group3 .parallax__layer--base {
-  background: rgb(20,20,255);
+  background-color: #7D8CA3;
 }
 
 #group4 {
   z-index: 2; /* slide under group 3 and 5 */
+  background-color: #59544B;
 }
 #group4 .parallax__layer--deep {
   background: rgb(184,223,101);
