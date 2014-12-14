@@ -118,7 +118,7 @@ Robot.prototype.buildHead = function(x,y,z) {
 // radius, widthSegment, heightSegment
 Robot.prototype.sphere = function(r,w,h) {
 	var sphereGeometry = new THREE.SphereGeometry(r,w,h);
-	var sphereMaterial = new THREE.MeshBasicMaterial({color:0xffff00});
+	var sphereMaterial = new THREE.MeshLambertMaterial({color: 0xffff00});
 	var sphere = new THREE.Mesh(sphereGeometry,sphereMaterial);
 
 	return sphere
@@ -126,7 +126,8 @@ Robot.prototype.sphere = function(r,w,h) {
 
 Robot.prototype.cube = function(x,y,z,color) {
 	var cubeGeometry = new THREE.BoxGeometry(x, y, z);
-	var cubeMaterial = new THREE.MeshBasicMaterial( { color: color } );
+	// var cubeMaterial = new THREE.MeshBasicMaterial( { color: color } );
+	var cubeMaterial = new THREE.MeshLambertMaterial({color: color});
 	var cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
 
 	return cube;

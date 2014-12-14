@@ -10,7 +10,8 @@ Cube.prototype.init = function() {
 
 Cube.prototype.build = function() {
 	var cubeGeometry = new THREE.BoxGeometry(1, 1, 1);
-	var cubeMaterial = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+	var cubeMaterial = new THREE.MeshLambertMaterial({color: 'red'});
+	// var cubeMaterial = new THREE.MeshBasicMaterial({color: 0x00ff00});
 	var cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
 
 	return cube;

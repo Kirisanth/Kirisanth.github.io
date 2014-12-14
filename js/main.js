@@ -53,20 +53,39 @@ cube.add();
 
 var geometry = new THREE.PlaneGeometry(20, 20);
 var material = new THREE.MeshBasicMaterial({color: 0xff00ff, side: THREE.DoubleSide});
+// var material = new THREE.MeshLambertMaterial({color:'red'})
 var plane = new THREE.Mesh(geometry, material);
 plane.rotateX(1.5);
 // _x: 1.5000000000000004, _y: -1.6653345369377348e-16, _z: -0.8
 plane.position.y = -1
 scene.add(plane);
 
+// cube
+var cube2 = new THREE.Mesh(new THREE.CubeGeometry(200, 200, 200), new THREE.MeshLambertMaterial({
+  color: 'red' 
+}));
+cube2.overdraw = true;
+cube2.rotation.x = Math.PI * 0.1;
+scene.add(cube2);
+
 // // add subtle blue ambient lighting
-// var ambientLight = new THREE.AmbientLight(0x000044);
-// scene.add(ambientLight);
+var ambientLight = new THREE.AmbientLight(0x000044);
+scene.add(ambientLight);
 
 // // directional lighting
-// var directionalLight = new THREE.DirectionalLight(0xffffff);
-// directionalLight.position.set(1, 1, 1).normalize();
-// scene.add(directionalLight);
+var directionalLight = new THREE.DirectionalLight(0xffffff);
+directionalLight.position.set(1, 1, 1).normalize();
+scene.add(directionalLight);
+
+var particleLight;
+
+particleLight = new THREE.Mesh(new THREE.SphereGeometry( 4, 8, 8 ), new THREE.MeshBasicMaterial({color: 0xffffff}));
+scene.add(particleLight);
+
+var pointLight = new THREE.PointLight( 0xffffff, 2, 800 );
+particleLight.add( pointLight );
+
+
 
 var isPaused = false;
 
@@ -81,6 +100,11 @@ function render() {
 	
 
 	robot.walk();
+	var timer = Date.now() * 0.00025;
+
+	particleLight.position.x = Math.sin( timer * 7 ) * 300;
+	particleLight.position.y = Math.cos( timer * 5 ) * 400;
+	particleLight.position.z = Math.cos( timer * 3 ) * 300;
 }
 render();
 
