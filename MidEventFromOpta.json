@@ -1,0 +1,767 @@
+{
+"status": "success",
+"data": {
+"ttl": 90,
+"sports-content": {
+"@xmlns:bbc": "http://www.bbc.co.uk/sport/sports-data",
+"sports-metadata": {
+"@fixture-key": "event-stats",
+"@fixture-name": "Progressive Event Score and Stats",
+"@language": "en-US",
+"@document-class": "event-summary",
+"sports-content-codes": {},
+"@date-time": "2015-09-29T20:26:54+01:00",
+"sports-property": [
+{
+"@value": "soccer:2015:5:event-stats:832683",
+"@formal-name": "compound-key"
+}
+],
+"@doc-id": "xt.opta.20150929202654-832683-mid-event"
+},
+"@xmlns": "http://iptc.org/std/SportsML/2008-04-01/",
+"@xmlns:xts": "http://www.xmlteam.com",
+"sports-event": {
+"officials": {},
+"team": [
+{},
+{
+"team-metadata": {
+"@alignment": "away",
+"name": {
+"@first": "Bayer 04 Leverkusen",
+"@full": "Bayer 04 Leverkusen",
+"@abbreviation": "Bayer 04 Leverkusen",
+"@nickname": "Bayer 04 Leverkusen"
+},
+"@team-key": "164"
+},
+"team-stats": {
+"@time-of-possession-percentage": 28.2,
+"sub-score": {
+"@period-value": 1,
+"@score": 1
+},
+"@score": 1,
+"team-stats-soccer": {
+"stats-soccer-foul": {
+"@fouls-commited": 7
+},
+"@line-formation": 442,
+"stats-soccer-offensive": {
+"@shots-on-goal-total": 3,
+"@corner-kicks": 1,
+"@shots-total": 8
+}
+},
+"@event-outcome": "undecided",
+"@score-opposing": 0
+},
+"@id": "e.832683-t.164",
+"associate": [
+{
+"@id": "man39102",
+"associate-metadata": {
+"@position-source": "optasports.com",
+"@position": "Manager",
+"name": {
+"@first": "Roger",
+"@full": "Roger Schmidt",
+"@abbreviation": "Schmidt",
+"@last": "Schmidt"
+},
+"@associate-key": "man39102"
+}
+}
+],
+"player": [
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@save-percentage": "NaN",
+"@catches-punches": 1,
+"@goals-against-total": 0,
+"@saves": 3
+},
+"@touches": 17,
+"stats-soccer-offensive": {
+"@passes-complete-3rd-final": 1,
+"@passes-incomplete": 7,
+"@passes-total": 11,
+"@passes-complete": 4,
+"@passes-complete-long": 3
+}
+}
+},
+"@id": "p.80201",
+"player-metadata": {
+"@uniform-number": 1,
+"@player-key": 80201,
+"@position-regular": "goalkeeper",
+"name": {
+"@first": "Bernd",
+"@full": "Bernd Leno",
+"@abbreviation": "Leno",
+"@last": "Leno"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 1
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-foul": {
+"@fouls-commited": 2
+},
+"stats-soccer-defensive": {
+"@interceptions": 3,
+"@clearances-successful": 2,
+"@goals-against-total": 0
+},
+"@touches": 23,
+"stats-soccer-offensive": {
+"@passes-complete-3rd-final": 2,
+"@passes-incomplete": 3,
+"@tackles-won": 2,
+"@passes-total": 8,
+"@passes-complete": 5,
+"@tackles-total": 3,
+"@tackles-lost": 1,
+"@crosses-18-yard": 1
+}
+}
+},
+"@id": "p.80149",
+"player-metadata": {
+"@uniform-number": 26,
+"@player-key": 80149,
+"@position-regular": "defender",
+"name": {
+"@first": "Giulio",
+"@full": "Giulio Donati",
+"@abbreviation": "Donati",
+"@last": "Donati"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 2
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-foul": {
+"@fouls-commited": 1
+},
+"stats-soccer-defensive": {
+"@interceptions": 3,
+"@clearances-successful": 1,
+"@goals-against-total": 0
+},
+"@touches": 9,
+"stats-soccer-offensive": {
+"@passes-incomplete": 1,
+"@passes-total": 2,
+"@passes-complete": 1
+}
+}
+},
+"@id": "p.164454",
+"player-metadata": {
+"@uniform-number": 4,
+"@player-key": 164454,
+"@position-regular": "defender",
+"name": {
+"@first": "Jonathan",
+"@full": "Jonathan Tah",
+"@abbreviation": "Tah",
+"@last": "Tah"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 5
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@shots-blocked-outfielder": 1,
+"@interceptions": 3,
+"@goals-against-total": 0
+},
+"@touches": 20,
+"stats-soccer-offensive": {
+"@passes-complete-3rd-final": 2,
+"@goals-total": 1,
+"@passes-complete": 7,
+"@tackles-lost": 0,
+"@goals-head": 0,
+"@shots-total": 1,
+"@passes-complete-long": 1,
+"@shots-on-goal-total": 1,
+"@goals-right-foot": 0,
+"@passes-incomplete": 2,
+"@goals-left-foot": 0,
+"@tackles-won": 1,
+"@passes-total": 9,
+"@tackles-total": 1
+}
+}
+},
+"@id": "p.49012",
+"player-metadata": {
+"@uniform-number": 5,
+"@player-key": 49012,
+"@position-regular": "defender",
+"name": {
+"@first": "Kyriakos",
+"@full": "Kyriakos Papadopoulos",
+"@abbreviation": "Papadopoulos",
+"@last": "Papadopoulos"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 6
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+},
+"@touches": 17,
+"stats-soccer-offensive": {
+"@passes-complete-3rd-final": 3,
+"@passes-incomplete": 3,
+"@passes-total": 12,
+"@passes-complete": 9,
+"@passes-complete-long": 3
+}
+}
+},
+"@id": "p.164096",
+"player-metadata": {
+"@uniform-number": 18,
+"@player-key": 164096,
+"@position-regular": "defender",
+"name": {
+"@first": "Wendell",
+"@full": "Wendell",
+"@abbreviation": "Nascimento Borges",
+"@last": "Nascimento Borges"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 3
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+},
+"@touches": 21,
+"stats-soccer-offensive": {
+"@passes-complete-3rd-final": 3,
+"@passes-incomplete": 4,
+"@tackles-won": 1,
+"@passes-total": 14,
+"@passes-complete": 10,
+"@tackles-total": 1,
+"@tackles-lost": 0,
+"@shots-total": 1,
+"@shots-off-goal-total": 1
+}
+}
+},
+"@id": "p.77639",
+"player-metadata": {
+"@uniform-number": 44,
+"@player-key": 77639,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Kevin",
+"@full": "Kevin Kampl",
+"@abbreviation": "Kampl",
+"@last": "Kampl"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 7
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-foul": {
+"@fouls-commited": 1,
+"@cautions-total": 1
+},
+"@aerials-won": 2,
+"stats-soccer-defensive": {
+"@interceptions": 4,
+"@clearances-successful": 1,
+"@goals-against-total": 0
+},
+"@touches": 25,
+"stats-soccer-offensive": {
+"@passes-complete-3rd-final": 1,
+"@passes-incomplete": 3,
+"@tackles-won": 3,
+"@passes-total": 11,
+"@passes-complete": 8,
+"@tackles-total": 5,
+"@tackles-lost": 2,
+"@passes-complete-long": 1
+}
+}
+},
+"@id": "p.38117",
+"player-metadata": {
+"@uniform-number": 8,
+"@player-key": 38117,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Lars",
+"@full": "Lars Bender",
+"@abbreviation": "Bender",
+"@last": "Bender"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 4
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@interceptions": 1,
+"@goals-against-total": 0
+},
+"@touches": 18,
+"stats-soccer-offensive": {
+"@passes-complete-3rd-final": 3,
+"@passes-incomplete": 1,
+"@tackles-won": 1,
+"@passes-total": 12,
+"@passes-complete": 11,
+"@tackles-total": 1,
+"@tackles-lost": 0,
+"@passes-complete-long": 1
+}
+}
+},
+"@id": "p.100927",
+"player-metadata": {
+"@uniform-number": 23,
+"@player-key": 100927,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Christoph",
+"@full": "Christoph Kramer",
+"@abbreviation": "Kramer",
+"@last": "Kramer"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 8
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-foul": {
+"@fouls-suffered": 1
+},
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+},
+"@touches": 24,
+"stats-soccer-offensive": {
+"@passes-complete-3rd-final": 1,
+"@passes-incomplete": 6,
+"@assists-total": 1,
+"@tackles-won": 1,
+"@passes-total": 15,
+"@passes-complete": 9,
+"@tackles-total": 1,
+"@tackles-lost": 0,
+"@shots-total": 1,
+"@shots-off-goal-total": 1
+}
+}
+},
+"@id": "p.111732",
+"player-metadata": {
+"@uniform-number": 10,
+"@player-key": 111732,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Hakan",
+"@full": "Hakan Calhanoglu",
+"@abbreviation": "Calhanoglu",
+"@last": "Calhanoglu"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 11
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"@aerials-won": 2,
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+},
+"@touches": 17,
+"stats-soccer-offensive": {
+"@passes-complete-3rd-final": 3,
+"@shots-on-goal-total": 1,
+"@passes-incomplete": 6,
+"@passes-total": 12,
+"@passes-complete": 6,
+"@shots-total": 1
+}
+}
+},
+"@id": "p.43020",
+"player-metadata": {
+"@uniform-number": 7,
+"@player-key": 43020,
+"@position-regular": "forward",
+"name": {
+"@first": "Javier",
+"@full": "Javier Hern�ndez",
+"@abbreviation": "Hern�ndez",
+"@last": "Hern�ndez"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 10
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-foul": {
+"@fouls-commited": 3,
+"@fouls-suffered": 1
+},
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+},
+"@touches": 25,
+"stats-soccer-offensive": {
+"@passes-complete-3rd-final": 4,
+"@shots-on-goal-total": 1,
+"@passes-incomplete": 6,
+"@passes-total": 14,
+"@passes-complete": 8,
+"@shots-total": 3,
+"@shots-off-goal-total": 2,
+"@crosses-18-yard": 1
+}
+}
+},
+"@id": "p.61583",
+"player-metadata": {
+"@uniform-number": 38,
+"@player-key": 61583,
+"@position-regular": "forward",
+"name": {
+"@first": "Karim",
+"@full": "Karim Bellarabi",
+"@abbreviation": "Bellarabi",
+"@last": "Bellarabi"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 9
+}
+}
+},
+{
+"@id": "p.95090",
+"player-metadata": {
+"@uniform-number": 2,
+"@player-key": 95090,
+"@position-regular": "defender",
+"name": {
+"@first": "Andr�",
+"@full": "Andr� Ramalho",
+"@abbreviation": "Ramalho",
+"@last": "Ramalho"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.16141",
+"player-metadata": {
+"@uniform-number": 11,
+"@player-key": 16141,
+"@position-regular": "forward",
+"name": {
+"@first": "Stefan",
+"@full": "Stefan Kie�ling",
+"@abbreviation": "Kie�ling",
+"@last": "Kie�ling"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.20726",
+"player-metadata": {
+"@uniform-number": 13,
+"@player-key": 20726,
+"@position-regular": "defender",
+"name": {
+"@first": "Roberto",
+"@full": "Roberto Hilbert",
+"@abbreviation": "Hilbert",
+"@last": "Hilbert"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.52156",
+"player-metadata": {
+"@uniform-number": 14,
+"@player-key": 52156,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Admir",
+"@full": "Admir Mehmedi",
+"@abbreviation": "Mehmedi",
+"@last": "Mehmedi"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.27795",
+"player-metadata": {
+"@uniform-number": 17,
+"@player-key": 27795,
+"@position-regular": "defender",
+"name": {
+"@first": "Sebastian",
+"@full": "Sebastian Boenisch",
+"@abbreviation": "Boenisch",
+"@last": "Boenisch"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.177591",
+"player-metadata": {
+"@uniform-number": 19,
+"@player-key": 177591,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Julian",
+"@full": "Julian Brandt",
+"@abbreviation": "Brandt",
+"@last": "Brandt"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.25590",
+"player-metadata": {
+"@uniform-number": 25,
+"@player-key": 25590,
+"@position-regular": "goalkeeper",
+"name": {
+"@first": "Dario",
+"@full": "Dario Kresic",
+"@abbreviation": "Kresic",
+"@last": "Kresic"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+}
+]
+}
+],
+"event-metadata": {
+"site": {
+"site-stats": {
+"@alignment": "home"
+},
+"site-metadata": {
+"@site-key": "s.1349",
+"name": {
+"@first": "Camp Nou",
+"@full": "Camp Nou",
+"@abbreviation": "Camp Nou"
+}
+}
+},
+"@event-status-note": "First half",
+"@date-coverage-type": "event",
+"@event-key": "832683",
+"@event-status": "mid-event",
+"@event-name": "Barcelona v Bayer 04 Leverkusen",
+"event-metadata-soccer": {
+"@period-value": 1,
+"@week": 2,
+"@minutes-elapsed": 42
+},
+"@start-date-time": "2015-09-29T19:45:00+01:00"
+},
+"event-actions": {
+"event-actions-soccer": {
+"action-soccer-score": [
+{
+"@sequence-number": 929200710,
+"@team-idref": "e.832683-t.164",
+"@score-attempt-type": "regular",
+"@period-value": 1,
+"@id": "a.1139096279",
+"@minutes-elapsed": 22,
+"action-soccer-play-participant": [
+{
+"@player-idref": "PO49012",
+"@team-idref": "e.832683-t.164",
+"@role": "scorer"
+},
+{
+"@player-idref": "PO111732",
+"@team-idref": "e.832683-t.164",
+"@role": "assist"
+}
+]
+}
+],
+"action-soccer-penalty": [
+{
+"@penalty-type": "other",
+"@sequence-number": 929201533,
+"@recipient-type": "player",
+"@team-idref": "e.832683-t.178",
+"@period-value": 1,
+"@penalty-level": "yellow-card",
+"@id": "a.1282166922",
+"@minutes-elapsed": 31,
+"@recipient-idref": "p.32644",
+"@comment": "Off the ball foul"
+},
+{
+"@penalty-type": "diving",
+"@sequence-number": 929202156,
+"@recipient-type": "player",
+"@team-idref": "e.832683-t.178",
+"@period-value": 1,
+"@penalty-level": "yellow-card",
+"@id": "a.1256353288",
+"@minutes-elapsed": 37,
+"@recipient-idref": "p.61278",
+"@comment": "Simulation"
+},
+{
+"@penalty-type": "foul",
+"@sequence-number": 929202527,
+"@recipient-type": "player",
+"@team-idref": "e.832683-t.164",
+"@period-value": 1,
+"@penalty-level": "yellow-card",
+"@id": "a.761382993",
+"@minutes-elapsed": 40,
+"@recipient-idref": "p.38117",
+"@comment": "Foul"
+}
+]
+}
+}
+}
+}
+}
+}

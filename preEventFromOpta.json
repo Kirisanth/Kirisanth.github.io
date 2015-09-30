@@ -1,0 +1,1076 @@
+{
+"status": "success",
+"data": {
+"ttl": 90,
+"sports-content": {
+"@xmlns:bbc": "http://www.bbc.co.uk/sport/sports-data",
+"sports-metadata": {
+"@fixture-key": "event-stats",
+"@fixture-name": "Progressive Event Score and Stats",
+"@language": "en-US",
+"@document-class": "event-summary",
+"sports-content-codes": {
+"sports-content-code": [
+{
+"@code-name": "Opta",
+"@code-key": "optasports.com",
+"@code-type": "publisher"
+},
+{
+"@code-name": "XML Team Solutions, Inc.",
+"@code-key": "xmlteam.com",
+"@code-type": "distributor"
+},
+{
+"@code-name": "Soccer",
+"@code-key": 15054000,
+"@code-type": "sport"
+},
+{
+"@code-key": 5,
+"@code-type": "tournament"
+},
+{
+"@code-name": "Champions League",
+"@code-key": "l.uefa.org.champions",
+"@code-type": "league",
+"@code-source": "xmlteam.com"
+},
+{
+"@code-key": 2015,
+"@code-type": "season"
+},
+{
+"@code-key": 202,
+"@code-type": "team"
+},
+{
+"@code-key": 3,
+"@code-type": "team"
+},
+{
+"@code-key": "o.uefa.com.champions-t.1040",
+"@code-type": "team"
+},
+{
+"@code-key": "o.thefa.com-t.1",
+"@code-type": "team"
+}
+]
+},
+"@date-time": "2015-09-29T19:03:36+01:00",
+"sports-property": [
+{
+"@value": "soccer:2015:5:event-stats:832645",
+"@formal-name": "compound-key"
+}
+],
+"@doc-id": "xt.opta.20150929190336-832645-pre-event"
+},
+"@xmlns": "http://iptc.org/std/SportsML/2008-04-01/",
+"@xmlns:xts": "http://www.xmlteam.com",
+"sports-event": {
+"officials": {
+"official": [
+{
+"official-metadata": {
+"@official-key": "PO39371",
+"@position": "main-official",
+"name": {
+"@first": "Bas",
+"@full": "Bas Nijhuis",
+"@abbreviation": "Nijhuis",
+"@last": "Nijhuis"
+}
+}
+}
+]
+},
+"team": [
+{
+"team-metadata": {
+"@alignment": "home",
+"name": {
+"@first": "Arsenal",
+"@full": "Arsenal",
+"@abbreviation": "Arsenal",
+"@nickname": "Arsenal"
+},
+"@team-key": 3
+},
+"@id": "e.832645-t.3",
+"team-stats-soccer": {
+"@line-formation": "4231"
+},
+"associate": [
+{
+"@id": "man51",
+"associate-metadata": {
+"@position-source": "optasports.com",
+"@position": "Manager",
+"name": {
+"@first": "Ars�ne",
+"@full": "Ars�ne Wenger",
+"@abbreviation": "Wenger",
+"@last": "Wenger"
+},
+"@associate-key": "man51"
+}
+}
+],
+"player": [
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.48844",
+"player-metadata": {
+"@uniform-number": 13,
+"@player-key": 48844,
+"@position-regular": "goalkeeper",
+"name": {
+"@first": "David",
+"@full": "David Ospina",
+"@abbreviation": "Ospina",
+"@last": "Ospina"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 1
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.98745",
+"player-metadata": {
+"@uniform-number": 24,
+"@player-key": 98745,
+"@position-regular": "defender",
+"name": {
+"@first": "H�ctor",
+"@full": "H�ctor Beller�n",
+"@abbreviation": "Beller�n",
+"@last": "Beller�n"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 2
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.158074",
+"player-metadata": {
+"@uniform-number": 5,
+"@player-key": 158074,
+"@position-regular": "defender",
+"name": {
+"@first": "Gabriel Armando",
+"@full": "Gabriel Paulista",
+"@abbreviation": "de Abreu",
+"@last": "de Abreu"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 5
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.51507",
+"player-metadata": {
+"@uniform-number": 6,
+"@player-key": 51507,
+"@position-regular": "defender",
+"name": {
+"@first": "Laurent",
+"@full": "Laurent Koscielny",
+"@abbreviation": "Koscielny",
+"@last": "Koscielny"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 6
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.42427",
+"player-metadata": {
+"@uniform-number": 3,
+"@player-key": 42427,
+"@position-regular": "defender",
+"name": {
+"@first": "Kieran",
+"@full": "Kieran Gibbs",
+"@abbreviation": "Gibbs",
+"@last": "Gibbs"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 3
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.19524",
+"player-metadata": {
+"@uniform-number": 19,
+"@player-key": 19524,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Santiago",
+"@full": "Santiago Cazorla",
+"@abbreviation": "Cazorla",
+"@last": "Cazorla"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 8
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.56864",
+"player-metadata": {
+"@uniform-number": 34,
+"@player-key": 56864,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Francis",
+"@full": "Francis Coquelin",
+"@abbreviation": "Coquelin",
+"@last": "Coquelin"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 4
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.81880",
+"player-metadata": {
+"@uniform-number": 15,
+"@player-key": 81880,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Alex",
+"@full": "Alex Oxlade-Chamberlain",
+"@abbreviation": "Oxlade-Chamberlain",
+"@last": "Oxlade-Chamberlain"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 7
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.37605",
+"player-metadata": {
+"@uniform-number": 11,
+"@player-key": 37605,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Mesut",
+"@full": "Mesut �zil",
+"@abbreviation": "�zil",
+"@last": "�zil"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 10
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.37265",
+"player-metadata": {
+"@uniform-number": 17,
+"@player-key": 37265,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Alexis",
+"@full": "Alexis S�nchez",
+"@abbreviation": "S�nchez",
+"@last": "S�nchez"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 11
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.20467",
+"player-metadata": {
+"@uniform-number": 14,
+"@player-key": 20467,
+"@position-regular": "forward",
+"name": {
+"@first": "Theo",
+"@full": "Theo Walcott",
+"@abbreviation": "Walcott",
+"@last": "Walcott"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 9
+}
+}
+},
+{
+"@id": "p.27334",
+"player-metadata": {
+"@uniform-number": 2,
+"@player-key": 27334,
+"@position-regular": "defender",
+"name": {
+"@first": "Mathieu",
+"@full": "Mathieu Debuchy",
+"@abbreviation": "Debuchy",
+"@last": "Debuchy"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.17127",
+"player-metadata": {
+"@uniform-number": 4,
+"@player-key": 17127,
+"@position-regular": "defender",
+"name": {
+"@first": "Per",
+"@full": "Per Mertesacker",
+"@abbreviation": "Mertesacker",
+"@last": "Mertesacker"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.41792",
+"player-metadata": {
+"@uniform-number": 16,
+"@player-key": 41792,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Aaron",
+"@full": "Aaron Ramsey",
+"@abbreviation": "Ramsey",
+"@last": "Ramsey"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.38411",
+"player-metadata": {
+"@uniform-number": 18,
+"@player-key": 38411,
+"@position-regular": "defender",
+"name": {
+"@first": "Nacho",
+"@full": "Nacho Monreal",
+"@abbreviation": "Monreal",
+"@last": "Monreal"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.101184",
+"player-metadata": {
+"@uniform-number": 21,
+"@player-key": 101184,
+"@position-regular": "defender",
+"name": {
+"@first": "Calum",
+"@full": "Calum Chambers",
+"@abbreviation": "Chambers",
+"@last": "Chambers"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.99127",
+"player-metadata": {
+"@uniform-number": 28,
+"@player-key": 99127,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Joel",
+"@full": "Joel Campbell",
+"@abbreviation": "Campbell",
+"@last": "Campbell"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.11334",
+"player-metadata": {
+"@uniform-number": 33,
+"@player-key": 11334,
+"@position-regular": "goalkeeper",
+"name": {
+"@first": "Petr",
+"@full": "Petr Cech",
+"@abbreviation": "Cech",
+"@last": "Cech"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+}
+]
+},
+{
+"team-metadata": {
+"@alignment": "away",
+"name": {
+"@first": "Olympiakos",
+"@full": "Olympiakos",
+"@abbreviation": "Olympiakos",
+"@nickname": "Olympiakos"
+},
+"@team-key": 202
+},
+"@id": "e.832645-t.202",
+"team-stats-soccer": {
+"@line-formation": "4231"
+},
+"associate": [
+{
+"@id": "man41801",
+"associate-metadata": {
+"@position-source": "optasports.com",
+"@position": "Manager",
+"name": {
+"@first": "Marco",
+"@full": "Marco Silva",
+"@abbreviation": "Silva",
+"@last": "Silva"
+},
+"@associate-key": "man41801"
+}
+}
+],
+"player": [
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.40694",
+"player-metadata": {
+"@uniform-number": 16,
+"@player-key": 40694,
+"@position-regular": "goalkeeper",
+"name": {
+"@first": "Roberto",
+"@full": "Roberto",
+"@abbreviation": "Jimenez Gago",
+"@last": "Jimenez Gago"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 1
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.92293",
+"player-metadata": {
+"@uniform-number": 14,
+"@player-key": 92293,
+"@position-regular": "defender",
+"name": {
+"@first": "Omar",
+"@full": "Omar Elabdellaoui",
+"@abbreviation": "Elabdellaoui",
+"@last": "Elabdellaoui"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 2
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.49266",
+"player-metadata": {
+"@uniform-number": 3,
+"@player-key": 49266,
+"@position-regular": "defender",
+"name": {
+"@first": "Alberto",
+"@full": "Alberto Bot�a",
+"@abbreviation": "Botia",
+"@last": "Botia"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 5
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.53020",
+"player-metadata": {
+"@uniform-number": 23,
+"@player-key": 53020,
+"@position-regular": "defender",
+"name": {
+"@first": "Dimitrios",
+"@full": "Dimitrios Siovas",
+"@abbreviation": "Siovas",
+"@last": "Siovas"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 6
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.53864",
+"player-metadata": {
+"@uniform-number": 30,
+"@player-key": 53864,
+"@position-regular": "defender",
+"name": {
+"@first": "Leandro",
+"@full": "Leandro Salino",
+"@abbreviation": "Salino",
+"@last": "Salino"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 3
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.81025",
+"player-metadata": {
+"@uniform-number": 11,
+"@player-key": 81025,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Pajtim",
+"@full": "Pajtim Kasami",
+"@abbreviation": "Kasami",
+"@last": "Kasami"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 8
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.13919",
+"player-metadata": {
+"@uniform-number": 91,
+"@player-key": 13919,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Esteban",
+"@full": "Esteban Cambiasso",
+"@abbreviation": "Cambiasso",
+"@last": "Cambiasso"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 4
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.149695",
+"player-metadata": {
+"@uniform-number": 90,
+"@player-key": 149695,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Felipe",
+"@full": "Felipe Pardo",
+"@abbreviation": "Pardo",
+"@last": "Pardo"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 7
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.88294",
+"player-metadata": {
+"@uniform-number": 7,
+"@player-key": 88294,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Konstantinos",
+"@full": "Konstantinos Fortounis",
+"@abbreviation": "Fortounis",
+"@last": "Fortounis"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 10
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.100684",
+"player-metadata": {
+"@uniform-number": 92,
+"@player-key": 100684,
+"@position-regular": "midfielder",
+"name": {
+"@first": "Sebastiao",
+"@full": "Seb�",
+"@abbreviation": "de Freita Couto J�nior",
+"@last": "de Freita Couto J�nior"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 11
+}
+}
+},
+{
+"player-stats": {
+"@date-coverage-type": "event",
+"@time-played-total": "",
+"@team-coverage": "single-team",
+"@events-started": 1,
+"player-stats-soccer": {
+"stats-soccer-defensive": {
+"@goals-against-total": 0
+}
+}
+},
+"@id": "p.49958",
+"player-metadata": {
+"@uniform-number": 99,
+"@player-key": 49958,
+"@position-regular": "forward",
+"name": {
+"@first": "Brown",
+"@full": "Brown Ideye",
+"@abbreviation": "Ideye",
+"@last": "Ideye"
+},
+"@status": "starter",
+"player-metadata-soccer": {
+"@line-formation-position": 9
+}
+}
+},
+{
+"@id": "p.62980",
+"player-metadata": {
+"@uniform-number": 9,
+"@player-key": 62980,
+"@position-regular": "forward",
+"name": {
+"@first": "Alfred",
+"@full": "Alfred Finnbogason",
+"@abbreviation": "Finnbogason",
+"@last": "Finnbogason"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.40908",
+"player-metadata": {
+"@uniform-number": 10,
+"@player-key": 40908,
+"@position-regular": "forward",
+"name": {
+"@first": "Alejandro",
+"@full": "Alejandro Dom�nguez",
+"@abbreviation": "Dominguez",
+"@last": "Dominguez"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.100987",
+"player-metadata": {
+"@uniform-number": 17,
+"@player-key": 100987,
+"@position-regular": "forward",
+"name": {
+"@first": "Alan",
+"@full": "Alan Pulido",
+"@abbreviation": "Pulido",
+"@last": "Pulido"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.105717",
+"player-metadata": {
+"@uniform-number": 26,
+"@player-key": 105717,
+"@position-regular": "defender",
+"name": {
+"@first": "Arthur",
+"@full": "Arthur Masuaku",
+"@abbreviation": "Masuaku",
+"@last": "Masuaku"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.183008",
+"player-metadata": {
+"@uniform-number": 29,
+"@player-key": 183008,
+"@position-regular": "defender",
+"name": {
+"@first": "Praxitelis",
+"@full": "Praxitelis Vouros",
+"@abbreviation": "Vouros",
+"@last": "Vouros"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.88596",
+"player-metadata": {
+"@uniform-number": 37,
+"@player-key": 88596,
+"@position-regular": "goalkeeper",
+"name": {
+"@first": "Stefanos",
+"@full": "Stefanos Kapino",
+"@abbreviation": "Kapino",
+"@last": "Kapino"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+},
+{
+"@id": "p.160607",
+"player-metadata": {
+"@uniform-number": 77,
+"@player-key": 160607,
+"@position-regular": "forward",
+"name": {
+"@first": "Hern�ni Jorge",
+"@full": "Hern�ni",
+"@abbreviation": "Santos Fortes",
+"@last": "Santos Fortes"
+},
+"@status": "bench",
+"player-metadata-soccer": {
+"@line-formation-position": 0
+}
+}
+}
+]
+}
+],
+"event-metadata": {
+"site": {
+"site-stats": {
+"@alignment": "home"
+},
+"site-metadata": {
+"@site-key": "s.3250",
+"name": {
+"@first": "Emirates Stadium",
+"@full": "Emirates Stadium",
+"@abbreviation": "Emirates Stadium"
+}
+}
+},
+"@event-status-note": "pre-event",
+"@date-coverage-type": "event",
+"@event-key": 832645,
+"@event-status": "pre-event",
+"@event-name": "Arsenal v Olympiakos",
+"event-metadata-soccer": {
+"@week": 2
+},
+"@start-date-time": "2015-09-29T19:45:00+01:00"
+}
+}
+}
+}
+}
